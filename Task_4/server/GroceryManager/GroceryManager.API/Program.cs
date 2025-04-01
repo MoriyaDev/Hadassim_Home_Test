@@ -29,8 +29,21 @@ builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
 builder.Services.AddDbContext<DataContext>(options =>
 options.UseSqlServer(@"Server=PROBERS-COMPUTE\SQLEXPRESS;Database=GroceryManager;Trusted_Connection=True;TrustServerCertificate=True"));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200", "http://localhost:57417")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 
 var app = builder.Build();
+app.UseCors("AllowLocalhost");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

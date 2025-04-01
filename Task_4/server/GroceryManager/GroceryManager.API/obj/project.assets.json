@@ -2480,11 +2480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.API\\GroceryManager.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\GroceryManager.API.csproj",
       "projectName": "GroceryManager.API",
-      "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.API\\GroceryManager.API.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\GroceryManager.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.API\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2502,14 +2502,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj"
+            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj"
+            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Service\\GroceryManager.Service.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\‏‏Task 4\\server\\GroceryManager\\GroceryManager.Service\\GroceryManager.Service.csproj"
+            "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\GroceryManager.Service.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\GroceryManager.Service.csproj"
             }
           }
         }

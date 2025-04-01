@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GroceryManager.Data
-build_property.ProjectDir = C:\Users\User\Desktop\Hadassim Home Test\‏‏Task 4\server\GroceryManager\GroceryManager.Data\
+build_property.ProjectDir = C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
