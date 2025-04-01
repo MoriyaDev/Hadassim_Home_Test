@@ -1,0 +1,24 @@
+<h2 class="text">התחברות</h2>
+
+<form [formGroup]="loginForm">
+    <div>
+        <label for="companyName">שם ספק</label>
+        <input id="companyName" type="text" formControlName="companyName" required>
+
+        <!-- @if (phoneNotFound) {
+            <small class="error">מספר טלפון זה לא קיים במערכת.</small>
+          } -->
+    </div>
+
+    <div>
+        <label for="password">סיסמה</label>
+        <input id="password" type="password" formControlName="password" required>
+
+
+    </div>
+</form>
+
+<div>
+    <button class="testbutton" (click)="login()">התחברי</button>
+    <button class="testbutton">אין לך חשבון?</button>
+</div>

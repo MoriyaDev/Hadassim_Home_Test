@@ -1,0 +1,34 @@
+
+      <h2 >רישום ספק</h2>
+  
+      <form [formGroup]="registerForm" >
+        <label>שם חברה:</label>
+        <input type="text" formControlName="companyName" required>
+  
+        <label>מספר טלפון:</label>
+        <input type="text" formControlName="phoneNumber" required>
+  
+        <label>שם נציג:</label>
+        <input type="text" formControlName="agentName" required>
+  
+        <label>סיסמה:</label>
+        <input type="password" formControlName="password" required>
+  
+        <div formArrayName="products">
+          <div *ngFor="let product of products.controls; let i = index" [formGroupName]="i">
+            <h4>מוצר {{ i + 1 }}</h4>
+            <label>שם:</label>
+            <input type="text" formControlName="name" required>
+            <label>מחיר:</label>
+            <input type="number" formControlName="priceUnit" required>
+            <label>כמות מינימלית:</label>
+            <input type="number" formControlName="minQuantity" required>
+          </div>
+        </div>
+  
+        <button type="button"  (click)="addProduct()">הוסף מוצר נוסף</button>
+      </form>
+  
+        <button  (click)="register()">הרשמה</button>
+
+  

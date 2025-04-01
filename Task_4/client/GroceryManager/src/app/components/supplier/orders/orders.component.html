@@ -1,0 +1,26 @@
+<h2>הזמנות</h2>
+
+<table >
+  <thead>
+    <tr>
+      <th>מזהה</th>
+      <th>תאריך</th>
+      <th>סטטוס</th>
+      <th>מוצרים</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of orders">
+      <td>{{ order.id }}</td>
+      <td>{{ order.createdAt }}</td>
+      <td>{{ getStatusText(order.status) }}</td>
+      <td>
+        <ul>
+          <li *ngFor="let item of order.items">
+            {{ item.product.name }} - {{ item.quantity }}
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
