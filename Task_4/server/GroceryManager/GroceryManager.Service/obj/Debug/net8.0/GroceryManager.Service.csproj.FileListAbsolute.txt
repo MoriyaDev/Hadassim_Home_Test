@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\bin\Debug\net8.0\GroceryManager.Service.deps.json
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\bin\Debug\net8.0\GroceryManager.Service.dll
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\bin\Debug\net8.0\GroceryManager.Service.pdb
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\bin\Debug\net8.0\GroceryManager.Core.dll
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\bin\Debug\net8.0\GroceryManager.Core.pdb
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryM.A1CE26B6.Up2Date
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.dll
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\refint\GroceryManager.Service.dll
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.pdb
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\ref\GroceryManager.Service.dll
+C:\Users\User\Desktop\הדסים\GroceryManager\GroceryManager.Service\obj\Debug\net8.0\GroceryManager.Service.sourcelink.json
