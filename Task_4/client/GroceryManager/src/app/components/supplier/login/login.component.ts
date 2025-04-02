@@ -33,8 +33,7 @@ export class LoginComponent implements OnInit {
       next: (supplier) => {
         console.log('התחברות הצליחה:', supplier);
           localStorage.setItem('supplierId', supplier.id.toString());
-
-        // this.router.navigate(['/orders']);
+        this.router.navigate(['/order']);
       },
       error: () => {
       }

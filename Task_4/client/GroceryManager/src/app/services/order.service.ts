@@ -17,7 +17,7 @@ export class OrderService {
   }
 
   approveOrder(orderId: number): Observable<any> {
-    return this.http.post(`${this.baseUrl}/approve/${orderId}`, {});
+    return this.http.post(`${this.baseUrl}/${orderId}/approve`, {});
   }
 
 

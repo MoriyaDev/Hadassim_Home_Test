@@ -34,3 +34,39 @@ C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryMan
 C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.pdb
 C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.genruntimeconfig.cache
 C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\ref\GroceryManager.Data.dll
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.deps.json
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.runtimeconfig.json
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.dll
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.pdb
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Core.dll
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Core.pdb
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.sourcelink.json
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryM.D6C8370F.Up2Date
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.dll
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\refint\GroceryManager.Data.dll
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.pdb
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\ref\GroceryManager.Data.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.deps.json
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.runtimeconfig.json
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Data.pdb
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Core.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\bin\Debug\net8.0\GroceryManager.Core.pdb
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.sourcelink.json
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryM.D6C8370F.Up2Date
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\refint\GroceryManager.Data.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.pdb
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\GroceryManager.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.Data\obj\Debug\net8.0\ref\GroceryManager.Data.dll

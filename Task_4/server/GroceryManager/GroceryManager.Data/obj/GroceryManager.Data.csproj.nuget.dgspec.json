@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {}
+    "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
+    "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
         "projectName": "GroceryManager.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -61,21 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj",
         "projectName": "GroceryManager.Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\GroceryManager.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,15 +91,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj"
+              "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Hadassim_Home_Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj"
               }
             }
           }
@@ -105,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -138,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

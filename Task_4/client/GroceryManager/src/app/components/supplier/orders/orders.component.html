@@ -21,6 +21,10 @@
           </li>
         </ul>
       </td>
+      <td>
+        <button *ngIf="order.status === 0" (click)="approve(order.id)">אשר</button>
+      </td>
+      
     </tr>
   </tbody>
 </table>
