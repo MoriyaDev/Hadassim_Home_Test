@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, RouterOutlet } from '@angular/router';
+import { Router, RouterModule, RouterOutlet } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, RouterOutlet], // ✅ הוספנו CommonModule
+  imports: [CommonModule, RouterOutlet,RouterModule], 
   standalone: true, 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -21,8 +21,8 @@ export class AppComponent  {
 
   logout(): void {
     localStorage.removeItem('supplierId');
-    this.router.navigate(['/order']);
-    window.location.reload(); // רענון פשוט
+    this.router.navigate(['/login']);
+    // window.location.reload(); // רענון פשוט
 
   }
 }

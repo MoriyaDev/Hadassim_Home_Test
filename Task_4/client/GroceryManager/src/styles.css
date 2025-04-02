@@ -24,6 +24,7 @@
     color: var(--text-color);
     background-color: var(--background-color);
     padding: 20px;
+    direction: rtl;
   }
   
   /* עיצוב כותרות */
@@ -162,11 +163,10 @@
     font-weight: 500;
   }
   
-  /* טפסים */
   input, textarea, select {
     width: 100%;
     padding: 10px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     border: 1px solid #ddd;
     border-radius: var(--border-radius);
     font-size: 1rem;
@@ -185,13 +185,11 @@
     font-weight: 500;
   }
   
-  /* כפתור המבורגר למובייל */
   .hamburger {
     display: none;
     cursor: pointer;
   }
   
-  /* עיצוב רספונסיבי */
   @media (max-width: 768px) {
     .hamburger {
       display: block;
@@ -218,12 +216,10 @@
     }
   }
   
-  /* סעיפי תוכן */
   .section {
     margin-bottom: 40px;
   }
   
-  /* פוטר */
   .footer {
     margin-top: 50px;
     padding: 20px 0;
@@ -231,7 +227,6 @@
     border-top: 1px solid #ddd;
   }
   
-  /* רשימות */
   ul, ol {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -263,7 +258,6 @@
     background-color: rgba(0, 0, 0, 0.02);
   }
   
-  /* מרווחים וחלוקת שטח */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -296,7 +290,6 @@
   .mb-4 { margin-bottom: 2rem; }
   .mb-5 { margin-bottom: 2.5rem; }
   
-  /* אנימציות */
   .fade-in {
     animation: fadeIn 0.5s ease-in;
   }
@@ -305,3 +298,16 @@
     from { opacity: 0; }
     to { opacity: 1; }
   }
+
+  small {
+    display: inline-block;
+    background-color: #ffffff; 
+    border: 1px solid #ff5252;
+    color: rgb(0, 0, 0);
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 0.6rem;
+    line-height: 1.4;
+  }
+  

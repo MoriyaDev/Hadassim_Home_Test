@@ -14,6 +14,7 @@ import { OrderService } from '../../../services/order.service';
 export class OrdersComponent {
   orders: Order[] = [];
   supplierId = Number(localStorage.getItem('supplierId'));
+  supplierName = localStorage.getItem('supplierName') || 'לא ידוע';
 
   constructor(private _orderService: OrderService) {}
 
@@ -34,10 +35,10 @@ export class OrdersComponent {
 
   getStatusText(status: number): string {
     switch (status) {
-      case 0: return 'ממתינה';
-      case 1: return 'בתהליך';
-      case 2: return 'הושלמה';
-      default: return 'לא ידוע';
+      case 0: return '🕓 ממתינה';
+    case 1: return '🔄 בתהליך';
+    case 2: return '✅ הושלמה';
+    default: return '❓ לא ידוע';
     }
   }
 }

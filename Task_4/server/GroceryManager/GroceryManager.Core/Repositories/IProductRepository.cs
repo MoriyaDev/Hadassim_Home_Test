@@ -9,6 +9,7 @@ namespace GroceryManager.Core.Repositories
 {
     public interface IProductRepository
     {
+        Task<Product?> GetByNameAndSupplierIdAsync(string productName, int supplierId);
         Task<List<Product>> GetProductsBySupplierAsync(int supplierId);
 
     }

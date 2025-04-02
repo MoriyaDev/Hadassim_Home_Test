@@ -1,0 +1,10 @@
+.orders-table {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    text-align: right;
+  }
+  

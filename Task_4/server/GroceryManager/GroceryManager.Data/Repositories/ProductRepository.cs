@@ -26,6 +26,14 @@ namespace GroceryManager.Data.Repositories
                 .ToListAsync();
         }
 
+        public async Task<Product?> GetByNameAndSupplierIdAsync(string productName, int supplierId)
+        {
+            return await _context.Products
+                .FirstOrDefaultAsync(p => p.SupplierId == supplierId && p.Name == productName);
+        }
+
+
+
 
     }
 }

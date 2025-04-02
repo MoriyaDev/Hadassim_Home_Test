@@ -1,18 +1,19 @@
-<h2>הזמנות</h2>
+<h2>הזמנות מספק {{ supplierName }}</h2>
 
-<table >
+<table class="orders-table">
   <thead>
     <tr>
       <th>מזהה</th>
       <th>תאריך</th>
       <th>סטטוס</th>
       <th>מוצרים</th>
+      <th>אישור</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let order of orders">
       <td>{{ order.id }}</td>
-      <td>{{ order.createdAt }}</td>
+      <td>{{ order.createdAt | date:'dd/MM/yyyy HH:mm' }}</td>
       <td>{{ getStatusText(order.status) }}</td>
       <td>
         <ul>
@@ -22,9 +23,12 @@
         </ul>
       </td>
       <td>
-        <button *ngIf="order.status === 0" (click)="approve(order.id)">אשר</button>
+        <button 
+          *ngIf="order.status === 0" 
+          (click)="approve(order.id)">
+          אשר
+        </button>
       </td>
-      
     </tr>
   </tbody>
 </table>

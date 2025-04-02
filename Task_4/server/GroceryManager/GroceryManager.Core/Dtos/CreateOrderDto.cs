@@ -9,13 +9,8 @@ namespace GroceryManager.Core.Dtos
 {
     public class CreateOrderDto
     {
-        public int SupplierId { get; set; }
-
+        public string SupplierName { get; set; }
         public DateTime CreatedAt { get; set; }
-
-        public OrderStatus Status { get; set; } = OrderStatus.Pending; // ברירת מחדל - ממתינה
-
-
         public List<CreateOrderItemDto> Items { get; set; }
     }
 }

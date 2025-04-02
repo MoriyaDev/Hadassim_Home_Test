@@ -19,27 +19,29 @@ constructor( private fb: FormBuilder, private router: Router,private _supplierSe
   }
   ngOnInit(): void {
     this.registerForm = this.fb.group({
-      companyName: ['', Validators.required],
-      phoneNumber: ['', Validators.required],
+      companyName: ['', [Validators.required, Validators.minLength(2)]],
+      phoneNumber: ['', [Validators.required, Validators.pattern(/^05\d{8}$/)]],
       agentName: ['', Validators.required],
-      password: ['', Validators.required],
+      password: ['', [Validators.required, Validators.minLength(4)]],
       products: this.fb.array([
         this.createProductGroup()
       ])
     });
+    
   }
 
   get products(): FormArray {
     return this.registerForm.get('products') as FormArray;
   }
 
-  createProductGroup(): FormGroup {
-    return this.fb.group({
-      name: ['', Validators.required],
-      priceUnit: [0, Validators.required],
-      minQuantity: [1, Validators.required]
-    });
-  }
+    createProductGroup(): FormGroup {
+      return this.fb.group({
+        name: ['', Validators.required],
+        priceUnit: [0, [Validators.required, Validators.min(0.01)]],
+        minQuantity: [1, [Validators.required, Validators.min(1)]]
+      });
+    }
+    
 
   addProduct(): void {
     this.products.push(this.createProductGroup());
@@ -51,6 +53,8 @@ constructor( private fb: FormBuilder, private router: Router,private _supplierSe
     this._supplierService.register(this.registerForm.value).subscribe({
       next: res => {
         console.log('ספק נרשם בהצלחה', res);
+        this.router.navigate(['/login']);
+
       },
       error: err => {
         console.error('שגיאה ברישום', err);

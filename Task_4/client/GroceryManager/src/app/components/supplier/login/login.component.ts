@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './login.component.css'
 })
 export class LoginComponent implements OnInit {
+
   public loginForm!: FormGroup;
 
   
@@ -33,12 +34,18 @@ export class LoginComponent implements OnInit {
       next: (supplier) => {
         console.log('התחברות הצליחה:', supplier);
           localStorage.setItem('supplierId', supplier.id.toString());
+          localStorage.setItem('supplierName', supplier.companyName); 
+
         this.router.navigate(['/order']);
       },
       error: () => {
       }
     });
 
+  }
+
+  signup() {
+    this.router.navigate(['/signup']);
   }
 
 }

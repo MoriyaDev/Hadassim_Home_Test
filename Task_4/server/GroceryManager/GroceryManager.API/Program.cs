@@ -23,8 +23,8 @@ builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
-builder.Services.AddScoped<IOrderItemService, OrderItemService>();
-builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+//builder.Services.AddScoped<IOrderItemService, OrderItemService>();
+//builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
 
 builder.Services.AddDbContext<DataContext>(options =>
 options.UseSqlServer(@"Server=PROBERS-COMPUTE\SQLEXPRESS;Database=GroceryManager;Trusted_Connection=True;TrustServerCertificate=True"));

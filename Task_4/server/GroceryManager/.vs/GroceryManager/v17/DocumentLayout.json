@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|solutionrelative:grocerymanager.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|solutionrelative:grocerymanager.service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\model\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\model\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|solutionrelative:grocerymanager.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689C72A-10D0-46D8-BDC5-D3C97887B815}|GroceryManager.Data\\GroceryManager.Data.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E689C72A-10D0-46D8-BDC5-D3C97887B815}|GroceryManager.Data\\GroceryManager.Data.csproj|solutionrelative:grocerymanager.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|solutionrelative:grocerymanager.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|solutionrelative:grocerymanager.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\repositories\\iordertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\repositories\\iordertrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\dtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\dtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|solutionrelative:grocerymanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\grocerymanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\grocerymanager.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.spec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -31,20 +83,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95A29593-DD30-4C9F-B513-333B374C3DA3}|GroceryManager.Service\\GroceryManager.Service.csproj|solutionrelative:grocerymanager.service\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E689C72A-10D0-46D8-BDC5-D3C97887B815}|GroceryManager.Data\\GroceryManager.Data.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.data\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E689C72A-10D0-46D8-BDC5-D3C97887B815}|GroceryManager.Data\\GroceryManager.Data.csproj|solutionrelative:grocerymanager.data\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|solutionrelative:grocerymanager.core\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E14B6F6-812B-44AC-ADC8-20E09372A136}|GroceryManager.API\\GroceryManager.API.csproj|solutionrelative:grocerymanager.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD5A4CBE-1982-4ADC-841B-86088591C0C2}|GroceryManager.Core\\GroceryManager.Core.csproj|c:\\users\\user\\desktop\\hadassim home test\\task_4\\server\\grocerymanager\\grocerymanager.core\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,46 +122,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "tsconfig.spec.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.spec.json",
-              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\tsconfig.spec.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.spec.json",
-              "RelativeToolTip": "..\\..\\client\\GroceryManager\\tsconfig.spec.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:14.844Z",
+              "DocumentIndex": 2,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Model\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\OrderStatus.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Model\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:39:36.044Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "GroceryManager.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "GroceryManager.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:16:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\OrderService.cs*",
+              "RelativeToolTip": "GroceryManager.Service\\OrderService.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:39:03.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "tsconfig.app.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.app.json",
-              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\tsconfig.app.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.app.json",
-              "RelativeToolTip": "..\\..\\client\\GroceryManager\\tsconfig.app.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:14.681Z",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\ProductService.cs",
+              "RelativeToolTip": "GroceryManager.Service\\ProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:39:04.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\README.md",
-              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\README.md",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\README.md",
-              "RelativeToolTip": "..\\..\\client\\GroceryManager\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-04-02T12:47:14.424Z",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "GroceryManager.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "GroceryManager.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:42:59.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:51:25.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\SupplierService.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Service\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\SupplierService.cs",
+              "RelativeToolTip": "GroceryManager.Service\\SupplierService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:27:02.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "GroceryManager.Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:51:46.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Dtos\\CreateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderItemDto.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Dtos\\CreateOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:46:54.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:25:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroceryManager.Core",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\GroceryManager.Core.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\GroceryManager.Core.csproj",
+              "RelativeToolTip": "GroceryManager.Core\\GroceryManager.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T19:40:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOrdertRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Repositories\\IOrdertRepository.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Repositories\\IOrdertRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Repositories\\IOrdertRepository.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Repositories\\IOrdertRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:37:27.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Program.cs",
+              "RelativeDocumentMoniker": "GroceryManager.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Program.cs",
+              "RelativeToolTip": "GroceryManager.API\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:45:16.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\OrderItem.cs",
+              "RelativeDocumentMoniker": "GroceryManager.Core\\Model\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\OrderItem.cs",
+              "RelativeToolTip": "GroceryManager.Core\\Model\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:36:54.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\package.json",
               "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\package.json",
@@ -129,12 +316,11 @@
               "RelativeToolTip": "..\\..\\client\\GroceryManager\\package.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:14.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:47:14.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\package-lock.json",
               "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\package-lock.json",
@@ -142,12 +328,11 @@
               "RelativeToolTip": "..\\..\\client\\GroceryManager\\package-lock.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:14.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:47:14.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "angular.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\angular.json",
               "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\angular.json",
@@ -155,12 +340,47 @@
               "RelativeToolTip": "..\\..\\client\\GroceryManager\\angular.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:13.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:47:13.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\README.md",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\README.md",
+              "RelativeToolTip": "..\\..\\client\\GroceryManager\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-02T12:47:14.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "tsconfig.app.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.app.json",
+              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\tsconfig.app.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.app.json",
+              "RelativeToolTip": "..\\..\\client\\GroceryManager\\tsconfig.app.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T12:47:14.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "tsconfig.spec.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.spec.json",
+              "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\tsconfig.spec.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.spec.json",
+              "RelativeToolTip": "..\\..\\client\\GroceryManager\\tsconfig.spec.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T12:47:14.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\.editorconfig",
               "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\.editorconfig",
@@ -168,12 +388,11 @@
               "RelativeToolTip": "..\\..\\client\\GroceryManager\\.editorconfig",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-02T12:47:12.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:47:12.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "SupplierRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\Repositories\\SupplierRepository.cs",
               "RelativeDocumentMoniker": "GroceryManager.Data\\Repositories\\SupplierRepository.cs",
@@ -185,49 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SupplierService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\SupplierService.cs",
-              "RelativeDocumentMoniker": "GroceryManager.Service\\SupplierService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Service\\SupplierService.cs",
-              "RelativeToolTip": "GroceryManager.Service\\SupplierService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:27:02.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateOrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
-              "RelativeDocumentMoniker": "GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
-              "RelativeToolTip": "GroceryManager.Core\\Dtos\\CreateOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:25:21.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Program.cs",
-              "RelativeDocumentMoniker": "GroceryManager.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Program.cs*",
-              "RelativeToolTip": "GroceryManager.API\\Program.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T19:45:16.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\client\\GroceryManager\\tsconfig.json",
               "RelativeDocumentMoniker": "..\\..\\client\\GroceryManager\\tsconfig.json",
@@ -235,24 +412,11 @@
               "RelativeToolTip": "..\\..\\client\\GroceryManager\\tsconfig.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T12:47:14.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:47:14.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "GroceryManager.API\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "GroceryManager.API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:16:53.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\Order.cs",
               "RelativeDocumentMoniker": "GroceryManager.Core\\Model\\Order.cs",
@@ -264,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "20250401222200_first.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Data\\Migrations\\20250401222200_first.cs",
               "RelativeDocumentMoniker": "GroceryManager.Data\\Migrations\\20250401222200_first.cs",
@@ -276,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "SupplierController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.API\\Controllers\\SupplierController.cs",
               "RelativeDocumentMoniker": "GroceryManager.API\\Controllers\\SupplierController.cs",
@@ -288,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\Product.cs",
               "RelativeDocumentMoniker": "GroceryManager.Core\\Model\\Product.cs",
@@ -300,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Hadassim Home Test\\Task_4\\server\\GroceryManager\\GroceryManager.Core\\Model\\Supplier.cs",
               "RelativeDocumentMoniker": "GroceryManager.Core\\Model\\Supplier.cs",

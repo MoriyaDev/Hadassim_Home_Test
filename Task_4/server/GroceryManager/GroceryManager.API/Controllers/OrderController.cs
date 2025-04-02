@@ -81,12 +81,13 @@ namespace GroceryManager.API.Controllers
         }
 
 
-        [HttpPost]
-        public async Task<IActionResult> CreateOrder([FromBody] CreateOrderDto dto)
+        [HttpPost("by-name")]
+        public async Task<IActionResult> CreateOrderByName([FromBody] CreateOrderDto dto)
         {
             var order = await _orderService.CreateOrderAsync(dto);
             return Ok(order);
         }
+
 
 
         // DELETE api/<OrderController>/5

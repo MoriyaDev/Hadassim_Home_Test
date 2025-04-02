@@ -1,34 +1,56 @@
+<h2>רישום ספק</h2>
 
-      <h2 >רישום ספק</h2>
-  
-      <form [formGroup]="registerForm" >
-        <label>שם חברה:</label>
-        <input type="text" formControlName="companyName" required>
-  
-        <label>מספר טלפון:</label>
-        <input type="text" formControlName="phoneNumber" required>
-  
-        <label>שם נציג:</label>
-        <input type="text" formControlName="agentName" required>
-  
-        <label>סיסמה:</label>
-        <input type="password" formControlName="password" required>
-  
-        <div formArrayName="products">
-          <div *ngFor="let product of products.controls; let i = index" [formGroupName]="i">
-            <h4>מוצר {{ i + 1 }}</h4>
-            <label>שם:</label>
-            <input type="text" formControlName="name" required>
-            <label>מחיר:</label>
-            <input type="number" formControlName="priceUnit" required>
-            <label>כמות מינימלית:</label>
-            <input type="number" formControlName="minQuantity" required>
-          </div>
-        </div>
-  
-        <button type="button"  (click)="addProduct()">הוסף מוצר נוסף</button>
-      </form>
-  
-        <button  (click)="register()">הרשמה</button>
+<form [formGroup]="registerForm">
+  <label>שם חברה:</label>
+  <input type="text" formControlName="companyName" required>
+  <small *ngIf="registerForm.get('companyName')?.invalid && registerForm.get('companyName')?.touched">
+    חובה להזין שם חברה (לפחות 2 תווים)
+  </small>
 
-  
+  <label>מספר טלפון:</label>
+  <input type="text" formControlName="phoneNumber" required>
+  <small *ngIf="registerForm.get('phoneNumber')?.invalid && registerForm.get('phoneNumber')?.touched">
+    מספר טלפון חייב להתחיל ב-05 ולהכיל 10 ספרות
+  </small>
+
+  <label>שם נציג:</label>
+  <input type="text" formControlName="agentName" required>
+  <small *ngIf="registerForm.get('agentName')?.invalid && registerForm.get('agentName')?.touched">
+    חובה להזין שם נציג
+  </small>
+
+  <label>סיסמה:</label>
+  <input type="password" formControlName="password" required>
+  <small *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched">
+    הסיסמה חייבת להכיל לפחות 4 תווים
+  </small>
+
+  <div formArrayName="products">
+    <div *ngFor="let product of products.controls; let i = index" [formGroupName]="i">
+      <h4>מוצר {{ i + 1 }}</h4>
+    
+      <label>שם:</label>
+      <input type="text" formControlName="name" required>
+      <small *ngIf="product.get('name')?.invalid && product.get('name')?.touched">
+        חובה להזין שם מוצר
+      </small>
+    
+      <label>מחיר:</label>
+      <input type="number" formControlName="priceUnit" required>
+      <small *ngIf="product.get('priceUnit')?.invalid && product.get('priceUnit')?.touched">
+        חובה להזין מחיר חוקי
+      </small>
+    
+      <label>כמות מינימלית:</label>
+      <input type="number" formControlName="minQuantity" required>
+      <small *ngIf="product.get('minQuantity')?.invalid && product.get('minQuantity')?.touched">
+        חובה להזין כמות חוקית
+      </small>
+    </div>
+    
+  </div>
+
+  <button type="button" (click)="addProduct()">הוסף מוצר נוסף</button>
+</form>
+
+<button (click)="register()" [disabled]="registerForm.invalid">הרשמה</button>
