@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "GroceryManager.API.Controllers.InventoryController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Inventory/update-stock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sale",
+        "Type": "GroceryManager.Core.Dtos.SaleUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GroceryManager.API.Controllers.OrderController",
     "Method": "GetAllOrders",
     "RelativePath": "api/Order",

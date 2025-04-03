@@ -1,4 +1,5 @@
-﻿using GroceryManager.Core.Model;
+﻿using GroceryManager.Core.Dtos;
+using GroceryManager.Core.Model;
 using GroceryManager.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -29,6 +30,21 @@ namespace GroceryManager.Data.Repositories
         {
             return await _context.Suppliers
                 .FirstOrDefaultAsync(s => s.CompanyName == name);
+        }
+
+
+        public async Task<BestSupplier?> GetCheapestSupplierForProductAsync(string productName)
+        {
+            return await _context.Products
+                .Where(p => p.Name == productName)
+                .OrderBy(p => p.PriceUnit)
+                .Select(p => new BestSupplier
+                {
+                    SupplierId = p.SupplierId,
+                    ProductId = p.Id,
+                    MinQuantity = p.MinQuantity
+                })
+                .FirstOrDefaultAsync();
         }
 
 

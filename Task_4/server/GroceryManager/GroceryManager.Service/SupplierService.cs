@@ -5,6 +5,7 @@ using GroceryManager.Core.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,6 +19,14 @@ namespace GroceryManager.Service
         {
             _supplierRepository = supplierRepository;
         }
+
+        public static string HashPassword(string password)
+        {
+            using var sha = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(password);
+            var hash = sha.ComputeHash(bytes);
+            return Convert.ToBase64String(hash);
+        }
         public async Task<Supplier> RegisterSupplierAsync(SupplierRegisterDto dto)
         {
             var supplier = new Supplier
@@ -25,7 +34,7 @@ namespace GroceryManager.Service
                 CompanyName = dto.CompanyName,
                 PhoneNumber = dto.PhoneNumber,
                 AgentName = dto.AgentName,
-                Password = dto.Password, // כאן!!!
+                Password = HashPassword(dto.Password), // כאן!!!
                 Products = dto.Products.Select(p => new Product
                 {
                     Name = p.Name,
@@ -45,7 +54,9 @@ namespace GroceryManager.Service
             if (supplier == null)
                 throw new Exception("UserNotFound");
 
-            if (supplier.Password != dto.Password)
+            var hashedInput = HashPassword(dto.Password);
+
+            if (supplier.Password != hashedInput)
                 throw new Exception("WrongPassword");
 
             return supplier;

@@ -12,6 +12,6 @@ namespace GroceryManager.Core.Repositories
     {
         Task AddSupplierAsync(Supplier supplier);
         Task<Supplier?> GetByNameAsync(string name);
-
+        Task<BestSupplier?> GetCheapestSupplierForProductAsync(string productName);
     }
 }
