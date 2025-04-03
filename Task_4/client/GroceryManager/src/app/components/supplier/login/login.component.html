@@ -4,16 +4,27 @@
     <div>
         <label for="companyName">שם ספק</label>
         <input id="companyName" type="text" formControlName="companyName" required>
-
-        <!-- @if (phoneNotFound) {
-            <small class="error">מספר טלפון זה לא קיים במערכת.</small>
-          } -->
+        @if(loginForm.get('companyName')?.invalid && loginForm.get('companyName')?.touched) {
+            <small class="error">
+              חובה להזין שם חברה (לפחות 2 תווים)
+            </small>
+          }
+          @if(nameNotFound) {
+            <small class="error">שם ספק זה לא קיים במערכת.</small>
+          }
     </div>
 
     <div>
         <label for="password">סיסמה</label>
         <input id="password" type="password" formControlName="password" required>
-
+        @if(loginForm.get('password')?.invalid && loginForm.get('password')?.touched) {
+            <small class="error">
+              חובה להזין סיסמה
+            </small>
+          }
+          @if(wrongPassword) {
+            <small class="error">סיסמה שגויה.</small>
+          }
 
     </div>
 </form>

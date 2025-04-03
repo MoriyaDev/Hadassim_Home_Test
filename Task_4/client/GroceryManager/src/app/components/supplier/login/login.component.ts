@@ -14,7 +14,9 @@ import { CommonModule } from '@angular/common';
 export class LoginComponent implements OnInit {
 
   public loginForm!: FormGroup;
-
+  nameNotFound: boolean = false;
+  wrongPassword: boolean = false;
+  
   
   constructor( private router: Router,private _supplierService :SupplierService) { 
 
@@ -28,6 +30,9 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
+    this.nameNotFound = false;
+    this.wrongPassword = false;
+  
     const { companyName, password } = this.loginForm.value;
 
     this._supplierService.login(companyName,password).subscribe({
@@ -38,7 +43,13 @@ export class LoginComponent implements OnInit {
 
         this.router.navigate(['/order']);
       },
-      error: () => {
+      error: (err) => {
+         // נניח שהשרת מחזיר הודעת שגיאה מסודרת
+      if (err.error === 'UserNotFound') {
+        this.nameNotFound = true;
+      } else if (err.error === 'WrongPassword') {
+        this.wrongPassword = true;
+      }
       }
     });
 

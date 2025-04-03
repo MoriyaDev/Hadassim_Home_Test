@@ -42,8 +42,11 @@ namespace GroceryManager.Service
         {
             var supplier = await _supplierRepository.GetByNameAsync(dto.CompanyName);
 
-            if (supplier == null || supplier.Password != dto.Password)
-                return null;
+            if (supplier == null)
+                throw new Exception("UserNotFound");
+
+            if (supplier.Password != dto.Password)
+                throw new Exception("WrongPassword");
 
             return supplier;
         }
