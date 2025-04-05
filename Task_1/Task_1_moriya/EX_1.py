@@ -1,24 +1,30 @@
 #=================סעיף 1
+from typing import final
+
 import pandas as pd
 from collections import Counter
+size = 200000
+
 
 file_path = input("הכנסי את שם הקובץ (logs.txt.xlsx): ")
 n = int(input("הכנסי מספר (N): "))
+t = int(input("הכנסי מספר (t): "))
+
 full_path = fr"C:\Users\User\Desktop\Hadassim Home Test\Task_1\{file_path}"
 log = pd.read_excel(full_path, header=None)
 log['error_code'] = log[0].str.extract(r'Error: (\w+_\d+)')
 
 #1==קטע קוד לפיצול קובץ ה-logs.txt לחלקים קטנים יותר
-size = 200000
 rows_log = len(log)
-num_chunks = (rows_log + size - 1) // size
+row_chunks = rows_log //t
 #chunks=נתח
-for i in range(num_chunks):
-    start = i * size
-    end = min(start + size, rows_log)
-    num_chunks = log[start:end]
+for i in range(t):
+    start = i * row_chunks
+    end = (i + 1) * row_chunks if i < n - 1 else rows_log
+    chunk = log[start:end]
+
     filename = f"log_part_{i + 1}.xlsx"
-    num_chunks.to_excel(filename, index=False, header=False)
+    chunk.to_excel(filename, index=False, header=False)
 
     print(f"שמרתי את {filename} עם שורות {start} עד {end - 1}")
 
@@ -28,13 +34,8 @@ def count_errors(file):
     error_codes = my_file[0].str.extract(r'Error: (\w+_\d+)')[0]
     return Counter(error_codes)
 
-file_names = [
-    "log_part_1.xlsx",
-    "log_part_2.xlsx",
-    "log_part_3.xlsx",
-    "log_part_4.xlsx",
-    "log_part_5.xlsx"
-]
+file_names = [f"log_part_{i + 1}.xlsx" for i in range(n)]
+
 
 total_counter = Counter()
 
