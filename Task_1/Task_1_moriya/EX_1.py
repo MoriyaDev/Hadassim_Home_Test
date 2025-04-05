@@ -2,8 +2,8 @@
 import pandas as pd
 from collections import Counter
 
-file_path = input("הכנסי את שם הקובץ (למשל logs.txt או logs.xlsx): ")
-n = int(input("הכנס מספר (N): "))
+file_path = input("הכנסי את שם הקובץ (logs.txt.xlsx): ")
+n = int(input("הכנסי מספר (N): "))
 full_path = fr"C:\Users\User\Desktop\Hadassim Home Test\Task_1\{file_path}"
 log = pd.read_excel(full_path, header=None)
 log['error_code'] = log[0].str.extract(r'Error: (\w+_\d+)')
@@ -12,7 +12,7 @@ log['error_code'] = log[0].str.extract(r'Error: (\w+_\d+)')
 size = 200000
 rows_log = len(log)
 num_chunks = (rows_log + size - 1) // size
-
+#chunks=נתח
 for i in range(num_chunks):
     start = i * size
     end = min(start + size, rows_log)
@@ -54,10 +54,11 @@ for code, count in total_counter.items():
 
 #4==N קודי השגיאה השכיחים ביותר מהספירות הממוזגות
 top_n = total_counter.most_common(n)
-
-print("🔥 השגיאות השכיחות ביותר:")
+print("================================")
+print(f"==  {n} השגיאות השכיחות ביותר:  ==")
 for i, (code, count) in enumerate(top_n, start=1):
-    print(f"{i}. {code}: {count}")
+    print(f"==     {i}. {code}: {count}   ==")
+print("================================")
 
 #5==N 5.	נתחי את סיבוכיות הזמן והמקום של הפתרון שלך
 """
