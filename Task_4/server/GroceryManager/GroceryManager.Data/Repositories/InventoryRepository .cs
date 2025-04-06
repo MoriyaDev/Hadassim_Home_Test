@@ -31,5 +31,17 @@ namespace GroceryManager.Data.Repositories
             await _context.SaveChangesAsync();
         }
 
+       public async Task<Inventory> GetByProductIdAsync(string productId)
+{
+    return await _context.Inventorys
+        .FirstOrDefaultAsync(p => p.ProductId == productId);
+}
+
+        public async Task AddAsync(Inventory product)
+        {
+            await _context.Inventorys.AddAsync(product);
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

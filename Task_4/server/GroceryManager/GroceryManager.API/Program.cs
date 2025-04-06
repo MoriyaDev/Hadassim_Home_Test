@@ -31,8 +31,8 @@ builder.Services.AddScoped<IInventoryService, InventoryService>();
 builder.Services.AddScoped<IInventoryRepository, InventoryRepository>();
 
 builder.Services.AddDbContext<DataContext>(options =>
-//options.UseSqlServer(@"Server=PROBERS-COMPUTE\SQLEXPRESS;Database=GroceryManager;Trusted_Connection=True;TrustServerCertificate=True"));
-options.UseSqlServer(@"Server=PC\SQLEXPRESS;Database=GroceryManager1;Trusted_Connection=True;TrustServerCertificate=True"));
+options.UseSqlServer(@"Server=PROBERS-COMPUTE\SQLEXPRESS;Database=GroceryManager;Trusted_Connection=True;TrustServerCertificate=True"));
+//options.UseSqlServer(@"Server=PC\SQLEXPRESS;Database=GroceryManager1;Trusted_Connection=True;TrustServerCertificate=True"));
 
 builder.Services.AddAuthentication(options =>
 {

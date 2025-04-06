@@ -486,7 +486,7 @@
       "GroceryManager.Core/1.0.0": {
         "runtime": {
           "GroceryManager.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -498,7 +498,7 @@
         },
         "runtime": {
           "GroceryManager.Data.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -509,7 +509,7 @@
         },
         "runtime": {
           "GroceryManager.Service.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
