@@ -221,6 +221,7 @@ C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\Groce
 C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\GroceryManager.API.pdb
 C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\GroceryManager.API.genruntimeconfig.cache
 C:\Users\User\Desktop\רר\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\ref\GroceryManager.API.dll
+C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\appsettings.json
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\GroceryManager.API.staticwebassets.endpoints.json
@@ -230,6 +231,7 @@ C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryMan
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\GroceryManager.API.dll
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\GroceryManager.API.pdb
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -298,4 +300,3 @@ C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryMan
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\GroceryManager.API.pdb
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\GroceryManager.API.genruntimeconfig.cache
 C:\Users\User\Desktop\Hadassim_Home_Test\Task_4\server\GroceryManager\GroceryManager.API\obj\Debug\net8.0\ref\GroceryManager.API.dll
-C:\Users\User\Desktop\Hadassim Home Test\Task_4\server\GroceryManager\GroceryManager.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
