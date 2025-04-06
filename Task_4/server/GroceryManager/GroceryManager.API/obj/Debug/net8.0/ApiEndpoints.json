@@ -17,6 +17,26 @@
   },
   {
     "ContainingType": "GroceryManager.API.Controllers.InventoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Inventory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GroceryManager.Core.Model.Inventory, GroceryManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GroceryManager.API.Controllers.InventoryController",
     "Method": "UpdateStock",
     "RelativePath": "api/Inventory/update-stock",
     "HttpMethod": "POST",
@@ -135,6 +155,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryManager.API.Controllers.SupplierController",
+    "Method": "GetSuppliers",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

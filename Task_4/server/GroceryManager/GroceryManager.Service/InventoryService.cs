@@ -24,7 +24,10 @@ namespace GroceryManager.Service
             _supplierRepository = supplierRepo;
             _orderRepository = orderRepo;
         }
-
+        public async Task<List<Inventory>> GetAllAsync()
+        {
+            return await _inventoryRepository.GetAllAsync();
+        }
         public async Task<List<string>> HandleSaleAndCheckStockAsync(Dictionary<string, int> soldItems)
         {
             var missingProducts = new List<string>();

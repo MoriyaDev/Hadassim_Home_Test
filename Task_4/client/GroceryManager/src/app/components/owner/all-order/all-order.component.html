@@ -1,0 +1,52 @@
+<h2>כל ההזמנות מהספקים</h2>
+
+<div class="filter-bar">
+    <label for="statusFilter">סנן לפי סטטוס:</label>
+    <select id="statusFilter" [(ngModel)]="selectedStatus">
+      <option [ngValue]="null">הצג הכול</option>
+      <option [ngValue]="0">ממתין לאישור מהספק</option>
+      <option [ngValue]="1">בתהליך- מחכה לאישור שלך </option>
+      <option [ngValue]="2">הושלם</option>
+    </select>
+  </div>
+
+  
+<table class="orders-table">
+    <thead>
+        <tr>
+            <th>מזהה</th>
+            <th>תאריך</th>
+            <th>סטטוס</th>
+            <th>מוצרים</th>
+            <th>אישור סופי</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (order of filteredOrders; track $index) {
+        <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ order.createdAt }}</td>
+            <!-- <td>{{ order.createdAt | date:'dd/MM/yyyy HH:mm' }}</td> -->
+            <td>{{ getStatusText(order.status) }}</td>
+            <td>
+                <ul>
+                    @for (item of order.items; track $index) {
+                    <li>
+                        {{ item.product.name }} - {{ item.quantity }}
+                    </li>
+                    }
+
+                </ul>
+            </td>
+            <td>
+                @if(order.status === 1){ <button (click)="complete(order.id)">
+                    אשר סופי
+                </button>}
+
+
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GroceryManager.Data.Repositories
 {
-    public class InventoryRepository :IInventoryRepository
+    public class InventoryRepository : IInventoryRepository
     {
         private readonly DataContext _context;
 
@@ -31,16 +31,21 @@ namespace GroceryManager.Data.Repositories
             await _context.SaveChangesAsync();
         }
 
-       public async Task<Inventory> GetByProductIdAsync(string productId)
-{
-    return await _context.Inventorys
-        .FirstOrDefaultAsync(p => p.ProductId == productId);
-}
+        public async Task<Inventory> GetByProductIdAsync(string productId)
+        {
+            return await _context.Inventorys
+                .FirstOrDefaultAsync(p => p.ProductId == productId);
+        }
 
         public async Task AddAsync(Inventory product)
         {
             await _context.Inventorys.AddAsync(product);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<Inventory>> GetAllAsync()
+        {
+            return await _context.Inventorys.ToListAsync();
         }
 
     }

@@ -1,4 +1,5 @@
 ﻿using GroceryManager.Core.Dtos;
+using GroceryManager.Core.Model;
 using GroceryManager.Core.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,13 @@ namespace GroceryManager.API.Controllers
         public InventoryController(IInventoryService inventoryService)
         {
             _inventoryService = inventoryService;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Inventory>>> GetAll()
+        {
+            var inventory = await _inventoryService.GetAllAsync();
+            return Ok(inventory);
         }
 
         [HttpPost("update-stock")]

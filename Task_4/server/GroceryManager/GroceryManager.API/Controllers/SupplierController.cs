@@ -17,19 +17,13 @@ namespace GroceryManager.API.Controllers
             _supplierService = supplierService;
         }
 
-        // GET: api/<SupplierController>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
+        [HttpGet]
+        public IActionResult GetSuppliers()
+        {
+            var suppliers = _supplierService.GetAllSuppliers();
+            return Ok(suppliers);
+        }
 
-        // GET api/<SupplierController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] SupplierRegisterDto dto)

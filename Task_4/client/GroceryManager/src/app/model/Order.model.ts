@@ -15,3 +15,15 @@ export interface Order {
   items: OrderItem[];
   status: OrderStatus;
 }
+
+export interface OrderItemNew {
+  productName: string;
+  quantity: number;
+}
+
+export interface OrderNew {
+  supplierName: string;
+  createdAt: string;
+  items: OrderItemNew[];
+}
+

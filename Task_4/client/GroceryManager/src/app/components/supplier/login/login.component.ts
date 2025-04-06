@@ -5,9 +5,9 @@ import { SupplierService } from '../../../services/supplier.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  standalone: true, 
+  standalone: true,
   selector: 'app-login',
-  imports: [ReactiveFormsModule,CommonModule],
+  imports: [ReactiveFormsModule, CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
@@ -16,40 +16,42 @@ export class LoginComponent implements OnInit {
   public loginForm!: FormGroup;
   nameNotFound: boolean = false;
   wrongPassword: boolean = false;
-  
-  
-  constructor( private router: Router,private _supplierService :SupplierService) { 
+
+
+  constructor(private router: Router, private _supplierService: SupplierService) {
 
   }
 
   ngOnInit(): void {
-   this.loginForm=new FormGroup({
-    'companyName' :new FormControl('',Validators.required),
-    'password':new FormControl('',Validators.required)
-   })
+    this.loginForm = new FormGroup({
+      'companyName': new FormControl('', Validators.required),
+      'password': new FormControl('', Validators.required)
+    })
   }
 
-  login(){
+  login() {
     this.nameNotFound = false;
     this.wrongPassword = false;
-  
+
     const { companyName, password } = this.loginForm.value;
 
-    this._supplierService.login(companyName,password).subscribe({
+    this._supplierService.login(companyName, password).subscribe({
       next: (supplier) => {
         console.log('התחברות הצליחה:', supplier);
-          localStorage.setItem('supplierId', supplier.id.toString());
-          localStorage.setItem('supplierName', supplier.companyName); 
+        localStorage.setItem('supplierId', supplier.id.toString());
+        localStorage.setItem('supplierName', supplier.companyName);
+        // localStorage.setItem('token', supplier.token);
+        localStorage.setItem('role', supplier.role);
 
         this.router.navigate(['/order']);
       },
       error: (err) => {
-         // נניח שהשרת מחזיר הודעת שגיאה מסודרת
-      if (err.error === 'UserNotFound') {
-        this.nameNotFound = true;
-      } else if (err.error === 'WrongPassword') {
-        this.wrongPassword = true;
-      }
+        // נניח שהשרת מחזיר הודעת שגיאה מסודרת
+        if (err.error === 'UserNotFound') {
+          this.nameNotFound = true;
+        } else if (err.error === 'WrongPassword') {
+          this.wrongPassword = true;
+        }
       }
     });
 

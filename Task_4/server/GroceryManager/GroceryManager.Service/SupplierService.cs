@@ -19,7 +19,10 @@ namespace GroceryManager.Service
         {
             _supplierRepository = supplierRepository;
         }
-
+        public List<Supplier> GetAllSuppliers()
+        {
+            return _supplierRepository.GetAllSuppliers();
+        }
         public static string HashPassword(string password)
         {
             using var sha = SHA256.Create();

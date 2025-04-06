@@ -10,6 +10,8 @@ namespace GroceryManager.Core.Repositories
 {
     public interface ISupplierRepository
     {
+        List<Supplier> GetAllSuppliers();
+
         Task AddSupplierAsync(Supplier supplier);
         Task<Supplier?> GetByNameAsync(string name);
         Task<BestSupplier?> GetCheapestSupplierForProductAsync(string productName);

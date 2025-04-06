@@ -12,6 +12,8 @@ namespace GroceryManager.Core.Repositories
     {
         Task<Supplier> RegisterSupplierAsync(SupplierRegisterDto dto);
         Task<Supplier?> LoginAsync(SupplierLoginDto dto);
+        List<Supplier> GetAllSuppliers();
+
 
     }
 }

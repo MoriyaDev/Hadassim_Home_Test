@@ -13,5 +13,7 @@ namespace GroceryManager.Core.Repositories
         Task UpdateAsync(Inventory item);
         Task<Inventory> GetByProductIdAsync(string productId);
         Task AddAsync(Inventory product);
+        Task<List<Inventory>> GetAllAsync();
+
     }
 }

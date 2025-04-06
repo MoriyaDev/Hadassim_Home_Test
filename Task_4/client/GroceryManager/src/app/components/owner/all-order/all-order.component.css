@@ -1,0 +1,17 @@
+.orders-table {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    text-align: right;
+  }
+  .filter-bar {
+    margin-bottom: 20px;
+  }
+  .filter-bar select {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  

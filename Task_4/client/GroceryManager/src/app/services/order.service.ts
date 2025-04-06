@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Order } from '../model/Order.model';
+import { Order, OrderNew } from '../model/Order.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -16,9 +16,22 @@ export class OrderService {
     return this.http.get<Order[]>(`${this.baseUrl}/by-supplier/${supplierId}`);
   }
 
+  getOrders(): Observable<Order[]> {
+    return this.http.get<Order[]>(`${this.baseUrl}`);
+  }
+
   approveOrder(orderId: number): Observable<any> {
     return this.http.post(`${this.baseUrl}/${orderId}/approve`, {});
   }
 
+  completeOrder(orderId: number): Observable<any> {
+    return this.http.post(`${this.baseUrl}/${orderId}/complete`, {});
+  }
+
+  createOrder(order :OrderNew): Observable<any> {
+    return this.http.post(`${this.baseUrl}/by-name`, order);
+  }
+  
+  
 
 }

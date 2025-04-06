@@ -6,8 +6,7 @@ import { OrderService } from '../../../services/order.service';
 
 @Component({
   selector: 'app-orders',
-  imports: [CommonModule]
-  ,
+  imports: [CommonModule],
   templateUrl: './orders.component.html',
   styleUrl: './orders.component.css'
 })
@@ -21,6 +20,10 @@ export class OrdersComponent {
   ngOnInit(): void {
     this._orderService.getOrdersBySupplier(this.supplierId).subscribe({
       next: (data) => {this.orders = data,console.log(data);
+        this.orders = data.sort((a, b) => {
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+        });
+        
       },
       error: (err) => console.error('שגיאה בטעינת הזמנות', err)
     });

@@ -7,4 +7,5 @@ export interface Supplier {
   agentName: string;
   products: Product[];
   password: string;
+  role: string;
 }

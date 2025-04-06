@@ -15,7 +15,10 @@ namespace GroceryManager.Data.Repositories
 
         private readonly DataContext _context;
 
-
+        public List<Supplier> GetAllSuppliers()
+        {
+            return _context.Suppliers.ToList();
+        }
         public SupplierRepository(DataContext context)
         {
             _context = context;

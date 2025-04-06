@@ -23,5 +23,9 @@ export class SupplierService {
   register(supplier: Supplier): Observable<Supplier> {
     return this._http.post<Supplier>(`${this.apiUrl}/register`, supplier);
   }
+
+  loadSuppliers(): Observable<any> {
+    return this._http.get(`${this.apiUrl}`);
+  }
   
 }
