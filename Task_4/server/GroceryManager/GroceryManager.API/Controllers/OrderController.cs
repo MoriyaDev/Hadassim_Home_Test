@@ -2,6 +2,7 @@
 using GroceryManager.Core.Repositories;
 using GroceryManager.Core.Service;
 using GroceryManager.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -80,7 +81,7 @@ namespace GroceryManager.API.Controllers
             }
         }
 
-
+        [Authorize(Roles ="Owner")]
         [HttpPost("by-name")]
         public async Task<IActionResult> CreateOrderByName([FromBody] CreateOrderDto dto)
         {

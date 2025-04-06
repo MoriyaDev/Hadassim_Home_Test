@@ -14,5 +14,8 @@ namespace GroceryManager.Core.Model
         public string AgentName { get; set; }
         public List<Product> Products { get; set; }
         public string Password { get; set; }
+
+        public string Role { get; set; } = "Supp";
+
     }
 }

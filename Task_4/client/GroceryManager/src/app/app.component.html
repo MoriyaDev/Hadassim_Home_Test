@@ -1,9 +1,9 @@
 <nav>
-    
     <button *ngIf="!isLoggedIn()" routerLink="login">התחברות</button>
     <button *ngIf="!isLoggedIn()" routerLink="/signup">הרשמה</button>
     <button *ngIf="isLoggedIn()" routerLink="/order">הזמנות שלי</button>
     <button *ngIf="isLoggedIn()" (click)="logout()">התנתק</button>
   </nav>
+  <router-outlet></router-outlet>
   
   

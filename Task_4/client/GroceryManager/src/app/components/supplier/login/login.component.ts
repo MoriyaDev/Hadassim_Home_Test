@@ -5,7 +5,7 @@ import { SupplierService } from '../../../services/supplier.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  standalone: true, // ✅ הוספנו את זה!
+  standalone: true, 
   selector: 'app-login',
   imports: [ReactiveFormsModule,CommonModule],
   templateUrl: './login.component.html',

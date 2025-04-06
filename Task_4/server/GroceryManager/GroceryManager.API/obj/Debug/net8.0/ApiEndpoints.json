@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "GroceryManager.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "GroceryManager.Core.Dtos.SupplierLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GroceryManager.API.Controllers.InventoryController",
     "Method": "UpdateStock",
     "RelativePath": "api/Inventory/update-stock",
