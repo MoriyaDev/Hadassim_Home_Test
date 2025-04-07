@@ -17,25 +17,23 @@ elif file_name.endswith('.parquet'):
 else:
     raise ValueError("סוג קובץ לא נתמך – השתמשי בקובץ .xlsx או .parquet")
 
-print("העמודות שקיימות בקובץ הן:", file.columns)
 
-# === סעיף א – בדיקות מקדימות ===
-try:
-    file['timestamp'] = pd.to_datetime(file['timestamp'])
-except Exception as e:
-    print("❌ שגיאה בפורמט התאריך:", e)
+# ======סעיף א#
+# – תאריך עובר לתאריך תקין ===
+file['timestamp'] = pd.to_datetime(file['timestamp'], errors='coerce')
+
+# הסרת שורות עם תאריכים או ערכים חסרים
+file = file.dropna(subset=['timestamp', value_col])
+
+# המרת ערכים בעמודת value למספרים, שגויים ייהפכו ל-NaN
+file[value_col] = pd.to_numeric(file[value_col], errors='coerce')
 
 # בדיקת כפילויות
-duplicates = file.duplicated().sum()
-print(f"🔁 יש {duplicates} שורות כפולות בקובץ")
+file = file.dropna(subset=[value_col])
 
-# בדיקת ערכים חסרים
-missing_val = file[value_col].isnull().sum()
-print(f"📭 ערכים חסרים בעמודת value: {missing_val}")
-
-# המרת ערכים מספריים וניקוי שורות לא תקינות
-file[value_col] = pd.to_numeric(file[value_col], errors='coerce')
-file = file.dropna(subset=['timestamp', value_col])
+duplicated_count = file.duplicated().sum()
+file = file.drop_duplicates()
+print(f"🔁 נמצאו והוסרו {duplicated_count} שורות כפולות.")
 
 # === סעיף ב.1 – ממוצע לפי שעה ===
 file['Hour'] = file['timestamp'].dt.strftime('%Y-%m-%d %H:00')
@@ -55,7 +53,7 @@ for day in unique_dates:
     daily_file_name = fr"{folder_path}\day_{day}.xlsx"
     daily_data.to_excel(daily_file_name, index=False)
 
-# === סעיף ב.3 – ממוצע לפי שעה לכל יום ואיחוד התוצאות ===
+# === ממוצע לפי שעה לכל יום ואיחוד התוצאות ===
 all_averages = []
 
 for fname in os.listdir(folder_path):

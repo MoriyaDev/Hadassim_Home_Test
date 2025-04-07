@@ -1,0 +1,16 @@
+<nav>
+    <div class="nav-links">
+        @if (role === 'Supp') {
+        <button (click)="navigate('/order')">הזמנות שלי</button>
+        }
+        @else if (role === 'Owner') {
+        <button (click)="navigate('/int')">מלאי</button>
+        <button (click)="navigate('/all')">כל ההזמנות</button>
+        <button (click)="navigate('/ad')">הוספת הזמנה</button>
+        }
+    </div>
+    @if(role!=null){
+    <button class="logout" (click)="logout()">התנתק</button>
+
+    }
+</nav>

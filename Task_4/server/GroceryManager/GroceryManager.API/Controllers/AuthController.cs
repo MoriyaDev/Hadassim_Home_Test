@@ -41,13 +41,13 @@ namespace GroceryManager.API.Controllers
 
                 if (supp == null)
                 {
-                    return Unauthorized("⚠️ שם המשתמש לא קיים במערכת.");
+                    return Unauthorized(new { message = "UserNotFound" });
                 }
 
                 // 3️⃣ בדיקת סיסמה
                 if (supp.Password != HashPassword(loginModel.Password))
                 {
-                    return Unauthorized("🔑 סיסמה שגויה.");
+                    return Unauthorized(new { message = "WrongPassword" });
                 }
                 // 4️⃣ קביעת התפקיד - נשלוף את ה-Role מהמשתמש עצמו
                 string suppRole = supp.Role ?? "Supp"; // אם אין תפקיד שמור, ברירת מחדל היא "supp"
@@ -80,7 +80,7 @@ namespace GroceryManager.API.Controllers
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
 
                 // 7️⃣ החזרת הטוקן ללקוח יחד עם תפקיד המשתמש
-                return Ok(new { Token = tokenString, Role = suppRole, suppID = supp.Id });
+                return Ok(new { Token = tokenString, Role = suppRole, suppID = supp.Id,Name = supp.CompanyName });
             }
             catch (Exception ex)
             {

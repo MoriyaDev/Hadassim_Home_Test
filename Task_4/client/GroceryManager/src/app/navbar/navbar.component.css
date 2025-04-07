@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b2c5a;
+    padding: 12px 24px;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav button {
+    all: unset; /* מוחק את כל עיצובי ברירת המחדל של כפתור */
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  nav button:hover {
+    color: #b8f4ff;
+  }
+  
+  .logout {
+    color: #666;
+  }
+  
+  .logout:hover {
+    color: #000;
+  }
+  

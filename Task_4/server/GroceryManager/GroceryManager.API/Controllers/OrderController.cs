@@ -81,7 +81,7 @@ namespace GroceryManager.API.Controllers
             }
         }
 
-        [Authorize(Roles ="Owner")]
+        //[Authorize(Roles ="Owner")]
         [HttpPost("by-name")]
         public async Task<IActionResult> CreateOrderByName([FromBody] CreateOrderDto dto)
         {
@@ -90,11 +90,5 @@ namespace GroceryManager.API.Controllers
         }
 
 
-
-        // DELETE api/<OrderController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

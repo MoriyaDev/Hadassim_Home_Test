@@ -39,7 +39,10 @@ namespace GroceryManager.Service
 
                 var inventoryItem = await _inventoryRepository.GetByNameAsync(productName);
                 if (inventoryItem == null)
+                {
+                    missingProducts.Add($"{productName} - המוצר לא נמצא במלאי");
                     continue;
+                }
 
                 inventoryItem.CurrentQuantity -= quantitySold;
 
@@ -68,7 +71,7 @@ namespace GroceryManager.Service
                     }
                     else
                     {
-                        missingProducts.Add(productName);
+                        missingProducts.Add($"{productName} - אף ספק אינו משווק את המוצר");
                     }
                 }
 

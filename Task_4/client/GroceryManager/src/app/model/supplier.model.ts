@@ -8,4 +8,5 @@ export interface Supplier {
   products: Product[];
   password: string;
   role: string;
+
 }

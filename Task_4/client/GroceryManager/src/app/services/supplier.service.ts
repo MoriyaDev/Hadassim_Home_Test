@@ -9,6 +9,7 @@ import { Supplier } from '../model/supplier.model';
 })
 export class SupplierService {
   private apiUrl ='https://localhost:7145/api/Supplier'
+  private apiUrla ='https://localhost:7145/api/Auth'
 
   constructor(
     private _http: HttpClient,
@@ -16,10 +17,11 @@ export class SupplierService {
 
   ) { }
 
-  login(companyName :string,password :string):Observable<Supplier>
+  login(companyName :string,password :string):Observable<any>
   {
-    return this._http.post<Supplier>(`${this.apiUrl}/login`,{companyName,password});
+    return this._http.post<Supplier>(`${this.apiUrla}/login`,{companyName,password});
   }
+
   register(supplier: Supplier): Observable<Supplier> {
     return this._http.post<Supplier>(`${this.apiUrl}/register`, supplier);
   }

@@ -13,6 +13,8 @@ import { SupplierService } from '../../../services/supplier.service';
 })
 export class RegisterComponent implements OnInit{
   registerForm!: FormGroup;
+  companyNameExists = false;
+
 
 constructor( private fb: FormBuilder, private router: Router,private _supplierService :SupplierService) { 
 
@@ -48,6 +50,8 @@ constructor( private fb: FormBuilder, private router: Router,private _supplierSe
   }
 
   register(): void {
+    this.companyNameExists = false;
+
     if (this.registerForm.invalid) return;
 
     this._supplierService.register(this.registerForm.value).subscribe({
@@ -57,7 +61,9 @@ constructor( private fb: FormBuilder, private router: Router,private _supplierSe
 
       },
       error: err => {
-        console.error('שגיאה ברישום', err);
+        if(err === 500)
+            this.companyNameExists = true;
+          
       }
     });
   }

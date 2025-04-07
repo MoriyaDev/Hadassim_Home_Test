@@ -3,8 +3,6 @@ from typing import final
 
 import pandas as pd
 from collections import Counter
-size = 200000
-
 
 file_path = input("הכנסי את שם הקובץ (logs.txt.xlsx): ")
 n = int(input("הכנסי מספר (N): "))

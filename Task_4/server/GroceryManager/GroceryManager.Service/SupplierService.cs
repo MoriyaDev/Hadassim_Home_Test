@@ -32,6 +32,13 @@ namespace GroceryManager.Service
         }
         public async Task<Supplier> RegisterSupplierAsync(SupplierRegisterDto dto)
         {
+            var existingSupplier = await _supplierRepository.GetByNameAsync(dto.CompanyName);
+            if (existingSupplier != null)
+            {
+                return Conflict(new { error = "CompanyNameAlreadyExists" });
+
+            }
+
             var supplier = new Supplier
             {
                 CompanyName = dto.CompanyName,
@@ -48,6 +55,11 @@ namespace GroceryManager.Service
 
             await _supplierRepository.AddSupplierAsync(supplier);
             return supplier;
+        }
+
+        private Supplier Conflict(object value)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Supplier?> LoginAsync(SupplierLoginDto dto)

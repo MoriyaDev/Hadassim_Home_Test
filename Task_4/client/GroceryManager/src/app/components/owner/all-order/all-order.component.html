@@ -17,6 +17,7 @@
             <th>מזהה</th>
             <th>תאריך</th>
             <th>סטטוס</th>
+            <th>ספק</th>
             <th>מוצרים</th>
             <th>אישור סופי</th>
         </tr>
@@ -28,6 +29,7 @@
             <td>{{ order.createdAt }}</td>
             <!-- <td>{{ order.createdAt | date:'dd/MM/yyyy HH:mm' }}</td> -->
             <td>{{ getStatusText(order.status) }}</td>
+            <td>{{order.supplier.companyName}}</td>
             <td>
                 <ul>
                     @for (item of order.items; track $index) {

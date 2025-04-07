@@ -8,7 +8,7 @@ CREATE TABLE Persons (
     Gender VARCHAR(10) CHECK (Gender IN ('זכר', 'נקבה')),
     Father_Id INT,
     Mother_Id INT,
-    Spouse_Id INTּ
+    Spouse_Id INT
 );
 
 CREATE TABLE Family (

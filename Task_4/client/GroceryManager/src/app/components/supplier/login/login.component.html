@@ -1,35 +1,35 @@
 <h2 class="text">התחברות</h2>
 
 <form [formGroup]="loginForm">
-    <div>
-        <label for="companyName">שם ספק</label>
-        <input id="companyName" type="text" formControlName="companyName" required>
-        @if(loginForm.get('companyName')?.invalid && loginForm.get('companyName')?.touched) {
-            <small class="error">
-              חובה להזין שם חברה (לפחות 2 תווים)
-            </small>
-          }
-          @if(nameNotFound) {
-            <small class="error">שם ספק זה לא קיים במערכת.</small>
-          }
-    </div>
+  <div>
+    <label for="companyName">שם ספק</label>
+    <input id="companyName" type="text" formControlName="companyName" required>
+    @if(loginForm.get('companyName')?.invalid && loginForm.get('companyName')?.touched) {
+    <small class="error">
+      חובה להזין שם חברה (לפחות 2 תווים)
+    </small>
+    }
+    @else if(nameNotFound) {
+    <small class="error">שם ספק זה לא קיים במערכת.</small>
+    }
+  </div>
 
-    <div>
-        <label for="password">סיסמה</label>
-        <input id="password" type="password" formControlName="password" required>
-        @if(loginForm.get('password')?.invalid && loginForm.get('password')?.touched) {
-            <small class="error">
-              חובה להזין סיסמה
-            </small>
-          }
-          @if(wrongPassword) {
-            <small class="error">סיסמה שגויה.</small>
-          }
+  <div>
+    <label for="password">סיסמה</label>
+    <input id="password" type="password" formControlName="password" required>
+    @if(loginForm.get('password')?.invalid && loginForm.get('password')?.touched) {
+    <small class="error">
+      חובה להזין סיסמה
+    </small>
+    }
+    @if(wrongPassword) {
+    <small class="error">סיסמה שגויה.</small>
+    }
 
-    </div>
+  </div>
 </form>
 
 <div>
-    <button class="testbutton" (click)="login()">התחברי</button>
-    <button class="testbutton" (click)="signup()">אין לך חשבון?</button>
+  <button class="testbutton" (click)="login()">התחברי</button>
+  <button class="testbutton" (click)="signup()">אין לך חשבון?</button>
 </div>

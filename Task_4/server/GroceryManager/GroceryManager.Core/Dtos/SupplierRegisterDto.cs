@@ -12,7 +12,7 @@ namespace GroceryManager.Core.Dtos
         public string CompanyName { get; set; }
         public string PhoneNumber { get; set; }
         public string AgentName { get; set; }
-        public string Password { get; set; } // חדש!
+        public string Password { get; set; } 
         public List<ProductDto> Products { get; set; }
     }
 }

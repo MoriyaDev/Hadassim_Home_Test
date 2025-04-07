@@ -36,22 +36,30 @@ export class LoginComponent implements OnInit {
     const { companyName, password } = this.loginForm.value;
 
     this._supplierService.login(companyName, password).subscribe({
-      next: (supplier) => {
-        console.log('התחברות הצליחה:', supplier);
-        localStorage.setItem('supplierId', supplier.id.toString());
-        localStorage.setItem('supplierName', supplier.companyName);
-        // localStorage.setItem('token', supplier.token);
-        localStorage.setItem('role', supplier.role);
+      next: (res) => {
+        console.log('התחברות הצליחה:', res);
+  
+        // שמירת הנתונים בלוקל סטורג'
+        localStorage.setItem('supplierId', res.suppID);
+        localStorage.setItem('supplierName', res.name);
+        localStorage.setItem('token', res.token);
+        localStorage.setItem('role', res.role);
+  
+        const path = res.role === 'Owner' ? '/all' : '/order';
+      this.router.navigate([path]).then(() => {
+        location.reload(); // רענון לאחר הניווט
+      });
 
-        this.router.navigate(['/order']);
       },
-      error: (err) => {
-        // נניח שהשרת מחזיר הודעת שגיאה מסודרת
-        if (err.error === 'UserNotFound') {
-          this.nameNotFound = true;
-        } else if (err.error === 'WrongPassword') {
-          this.wrongPassword = true;
-        }
+      error: (error) => {
+        console.log('שגיאה בהתחברות:', error);
+          const errorMessage = error.error;
+          if (errorMessage.message === 'UserNotFound') {
+            this.nameNotFound = true;
+          } else if (errorMessage.message === 'WrongPassword') {
+            this.wrongPassword = true;
+          }
+        
       }
     });
 
