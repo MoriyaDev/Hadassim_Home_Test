@@ -1,6 +1,5 @@
 <h2>📦 הזמנת סחורה מספק</h2>
 
-<!-- בחירת ספק -->
 <div>
   <label for="supplierSelect">בחר ספק:</label>
   <select id="supplierSelect" [(ngModel)]="selectedSupplier" (change)="onSupplierSelected()">
@@ -14,7 +13,6 @@
   </select>
 </div>
 
-<!-- הצגת מוצרים של הספק -->
  @if(products.length > 0){
     <div  style="margin-top: 20px;">
         <h3>🛒 מוצרים של {{ selectedSupplier?.companyName }}</h3>
@@ -55,7 +53,6 @@
  }
 
 
-<!-- כפתור שליחת הזמנה -->
  @if(products.length > 0){
     <div  style="margin-top: 20px;">
         <button (click)="createOrder()">📤 שלח הזמנה</button>

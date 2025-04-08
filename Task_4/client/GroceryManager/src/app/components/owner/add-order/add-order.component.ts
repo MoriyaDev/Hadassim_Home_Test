@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Supplier } from '../../../model/supplier.model';
 import { Product } from '../../../model/product.model';
-import { HttpClient } from '@angular/common/http';
 import { OrderService } from '../../../services/order.service';
 import { ProductService } from '../../../services/product.service';
 import { SupplierService } from '../../../services/supplier.service';
@@ -55,7 +54,7 @@ export class AddOrderComponent implements OnInit  {
     this.productService.getProductsBySupplier(this.selectedSupplier.id).subscribe({
       next: (data) => {
         this.products = data;
-        this.selectedItems = []; // איפוס
+        this.selectedItems = []; 
       },
       error: (err) => {
         console.error('שגיאה בטעינת מוצרים:', err);

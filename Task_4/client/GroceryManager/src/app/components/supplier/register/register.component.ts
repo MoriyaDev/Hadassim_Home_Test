@@ -9,7 +9,6 @@ import { SupplierService } from '../../../services/supplier.service';
   selector: 'app-register',
   imports: [ReactiveFormsModule,CommonModule],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
 })
 export class RegisterComponent implements OnInit{
   registerForm!: FormGroup;

@@ -55,13 +55,11 @@
     font-size: 1.5rem;
   }
   
-  /* פסקאות */
   p {
     margin-bottom: 1.5rem;
     font-size: 1rem;
   }
   
-  /* עיצוב כפתורים */
   .button, button, input[type="submit"] {
     display: inline-block;
     padding: 10px 20px;
@@ -99,7 +97,6 @@
     background-color: #ff5252;
   }
   
-  /* עיצוב קישורים */
   a {
     color: var(--primary-color);
     text-decoration: none;
@@ -111,7 +108,6 @@
     text-decoration: underline;
   }
   
-  /* תיבות וקונטיינרים */
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -132,7 +128,6 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   }
   
-  /* תפריט ניווט */
   .navbar {
     display: flex;
     justify-content: space-between;

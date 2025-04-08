@@ -9,7 +9,6 @@ import { CommonModule } from '@angular/common';
   selector: 'app-login',
   imports: [ReactiveFormsModule, CommonModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
 })
 export class LoginComponent implements OnInit {
 
@@ -39,7 +38,6 @@ export class LoginComponent implements OnInit {
       next: (res) => {
         console.log('התחברות הצליחה:', res);
   
-        // שמירת הנתונים בלוקל סטורג'
         localStorage.setItem('supplierId', res.suppID);
         localStorage.setItem('supplierName', res.name);
         localStorage.setItem('token', res.token);
@@ -47,7 +45,7 @@ export class LoginComponent implements OnInit {
   
         const path = res.role === 'Owner' ? '/all' : '/order';
       this.router.navigate([path]).then(() => {
-        location.reload(); // רענון לאחר הניווט
+        location.reload(); 
       });
 
       },

@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit {
   logout(): void {
     localStorage.clear();
     this.router.navigate(['/login']);
-    location.reload(); // רענון אחרי הניווט
+    location.reload();
 
 
   }

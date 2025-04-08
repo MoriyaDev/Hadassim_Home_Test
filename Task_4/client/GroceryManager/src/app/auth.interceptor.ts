@@ -3,9 +3,6 @@ import { Injectable } from '@angular/core';
 import { HttpRequest, HttpHandler, HttpEvent, HttpInterceptor } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-// export const authInterceptor: HttpInterceptorFn = (req, next) => {
-//   return next(req);
-// };
 
 
 @Injectable()

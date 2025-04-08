@@ -11,7 +11,7 @@ export interface Order {
   id: number;
   supplierId: number;
   supplier: Supplier;
-  createdAt: string; // אפשר גם Date אם מעדיפים
+  createdAt: string; 
   items: OrderItem[];
   status: OrderStatus;
 }

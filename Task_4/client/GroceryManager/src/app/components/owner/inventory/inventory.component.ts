@@ -7,7 +7,6 @@ import { InventoryService } from '../../../services/inventory.service';
   imports: [],
   standalone: true,
   templateUrl: './inventory.component.html',
-  styleUrl: './inventory.component.css'
 })
 export class InventoryComponent implements OnInit {
   inventory: Inventory[] = [];

@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class AllOrderComponent {
   orders: Order[] = [];
-  selectedStatus: number | null = null; // null מציג הכול
+  selectedStatus: number | null = null; 
 
     constructor(private _orderService: OrderService) {}
 

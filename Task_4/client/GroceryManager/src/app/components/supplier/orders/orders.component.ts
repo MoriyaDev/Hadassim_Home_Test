@@ -32,7 +32,7 @@ export class OrdersComponent {
   approve(orderId: number): void {
     this._orderService.approveOrder(orderId).subscribe(() => {
       const order = this.orders.find(o => o.id === orderId);
-      if (order) order.status = 1; // InProcess
+      if (order) order.status = 1; 
     });
   }
 

@@ -14,7 +14,7 @@ nav {
   }
   
   nav button {
-    all: unset; /* מוחק את כל עיצובי ברירת המחדל של כפתור */
+    all: unset; 
     cursor: pointer;
     color: #ffffff;
     font-weight: 500;
