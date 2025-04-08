@@ -22,7 +22,7 @@ namespace GroceryManager.Service
             IOrderRepository orderRepository,
             ISupplierRepository supplierRepository
            , IProductRepository productRepository,
-IInventoryRepository inventoryRepository)
+            IInventoryRepository inventoryRepository)
         {
             _orderRepository = orderRepository;
             _supplierRepository = supplierRepository;
@@ -117,16 +117,14 @@ IInventoryRepository inventoryRepository)
 
                 if (existingProduct != null)
                 {
-                    // אם המוצר כבר קיים - נוסיף את הכמות
                     existingProduct.CurrentQuantity += item.Quantity;
                     await _inventoryRepository.UpdateAsync(existingProduct);
                 }
                 else
                 {
-                    // אם המוצר לא קיים - ניצור חדש
                     var newProduct = new Inventory
                     {
-                        ProductId = item.ProductId.ToString(), 
+                        ProductId = item.ProductId.ToString(),
                         ProductName = item.Product.Name,
                         CurrentQuantity = item.Quantity,
                         MinInGrocery = 2

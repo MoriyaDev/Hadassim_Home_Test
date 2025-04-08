@@ -22,7 +22,6 @@ namespace GroceryManager.API.Controllers
         }
 
 
-        // GET: api/<OrderController>
         [HttpGet]
         public async Task<IActionResult> GetAllOrders()
         {
@@ -43,7 +42,6 @@ namespace GroceryManager.API.Controllers
 
 
 
-        // GET api/<OrderController>/5
         [HttpGet("by-supplier/{supplierId}")]
         public async Task<IActionResult> GetOrdersBySupplier(int supplierId)
         {
@@ -52,7 +50,6 @@ namespace GroceryManager.API.Controllers
         }
 
 
-        // POST api/<OrderController>
         [HttpPost("{orderId}/approve")]
         public async Task<IActionResult> ApproveOrder(int orderId)
         {

@@ -8,9 +8,9 @@ namespace GroceryManager.Core.Model
 {
     public enum OrderStatus
     {
-        Pending,     // ממתינה לאישור ספק
-        InProgress,  // הספק אישר – הזמנה בתהליך
-        Completed    // הושלמה על ידי בעל המכולת
+        Pending,     
+        InProgress,  
+        Completed    
     }
 
 }

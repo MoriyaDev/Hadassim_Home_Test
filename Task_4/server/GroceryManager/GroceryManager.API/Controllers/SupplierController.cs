@@ -29,7 +29,7 @@ namespace GroceryManager.API.Controllers
         public async Task<IActionResult> Register([FromBody] SupplierRegisterDto dto)
         {
             var supplier = await _supplierService.RegisterSupplierAsync(dto);
-            return Ok(supplier); // אפשר גם להחזיר DTO עם ID בלבד
+            return Ok(supplier); 
         }
 
         [HttpPost("login")]
@@ -48,17 +48,5 @@ namespace GroceryManager.API.Controllers
             });
         }
 
-
-        // PUT api/<SupplierController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        // DELETE api/<SupplierController>/5
-    //    [HttpDelete("{id}")]
-    //    public void Delete(int id)
-    //    {
-    //    }
     }
 }

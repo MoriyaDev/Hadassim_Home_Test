@@ -18,7 +18,6 @@ namespace GroceryManager.API.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly ISupplierRepository _suppliertRepository;
-        // GET: api/<AuthController>
         public AuthController(IConfiguration configuration, ISupplierRepository fridgeRepository)
         {
             _configuration = configuration;
@@ -30,13 +29,11 @@ namespace GroceryManager.API.Controllers
         {
             try
             {
-                // 1️⃣ בדיקה אם הנתונים חסרים
                 if (loginModel == null || string.IsNullOrEmpty(loginModel.CompanyName) || string.IsNullOrEmpty(loginModel.Password))
                 {
                     return BadRequest("❌ נתונים חסרים. יש להזין שם משתמש וסיסמה.");
                 }
 
-                // 2️⃣ חיפוש המשתמש במערכת
                 var supp = await _suppliertRepository.GetByNameAsync(loginModel.CompanyName);
 
                 if (supp == null)
@@ -44,23 +41,19 @@ namespace GroceryManager.API.Controllers
                     return Unauthorized(new { message = "UserNotFound" });
                 }
 
-                // 3️⃣ בדיקת סיסמה
                 if (supp.Password != HashPassword(loginModel.Password))
                 {
                     return Unauthorized(new { message = "WrongPassword" });
                 }
-                // 4️⃣ קביעת התפקיד - נשלוף את ה-Role מהמשתמש עצמו
-                string suppRole = supp.Role ?? "Supp"; // אם אין תפקיד שמור, ברירת מחדל היא "supp"
+                string suppRole = supp.Role ?? "Supp"; 
 
-                // 5️⃣ יצירת תביעות (`Claims`) לפי תפקיד
                 var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, supp.CompanyName),
-            new Claim(ClaimTypes.Role, suppRole), // התפקיד מגיע מהדאטהבייס
+            new Claim(ClaimTypes.Role, suppRole), 
             new Claim("suppID", supp.Id.ToString())
         };
 
-                // 6️⃣ יצירת טוקן JWT
                 var key = _configuration.GetValue<string>("JWT:Key");
                 if (string.IsNullOrEmpty(key))
                 {
@@ -73,13 +66,12 @@ namespace GroceryManager.API.Controllers
                     issuer: _configuration.GetValue<string>("JWT:Issuer"),
                     audience: _configuration.GetValue<string>("JWT:Audience"),
                     claims: claims,
-                    expires: DateTime.UtcNow.AddMinutes(60), // תוקף ארוך יותר
+                    expires: DateTime.UtcNow.AddMinutes(60), 
                     signingCredentials: signinCredentials
                 );
 
                 var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
 
-                // 7️⃣ החזרת הטוקן ללקוח יחד עם תפקיד המשתמש
                 return Ok(new { Token = tokenString, Role = suppRole, suppID = supp.Id,Name = supp.CompanyName });
             }
             catch (Exception ex)

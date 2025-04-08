@@ -13,7 +13,7 @@ namespace GroceryManager.Core.Model
         public Supplier Supplier { get; set; }
         public DateTime CreatedAt { get; set; }
         public List<OrderItem> Items { get; set; } = new();
-        public OrderStatus Status { get; set; } = OrderStatus.Pending; // ברירת מחדל - ממתינה
+        public OrderStatus Status { get; set; } = OrderStatus.Pending; 
     }
 
 }

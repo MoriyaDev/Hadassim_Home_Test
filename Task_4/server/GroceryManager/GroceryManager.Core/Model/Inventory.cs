@@ -11,8 +11,8 @@ namespace GroceryManager.Core.Model
         public int Id { get; set; }
         public string ProductId { get; set; } = string.Empty;
         public string ProductName { get; set; } = string.Empty;
-        public int CurrentQuantity { get; set; } // כמה יש עכשיו בפועל במכולת
-        public int MinInGrocery { get; set; } // הכמות המינימלית הרצויה שהוגדרה
+        public int CurrentQuantity { get; set; } 
+        public int MinInGrocery { get; set; } 
     }
 
 }
